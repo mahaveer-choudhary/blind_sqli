@@ -47,16 +47,18 @@ python test-bsqli.py
 - **Payloads**: A file containing custom SQLi payloads is required.
 - **Cookie (Optional)**: If your scan requires authentication, you can provide a cookie string.
 - **Number of Threads**: You can specify the number of concurrent threads (default is 5).
-
+![Image 1](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/logo.png)
 The tool will scan each URL with the given payloads and detect any SQLi vulnerabilities based on the server's response time.
 
 ### WAF Detection:
 
 The tool also detects whether a WAF is protecting the target URL and reports the WAF name if detected.
+![image 3](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/blured-detection-image.png)
 
 ### Saving Results:
 
 At the end of the scan, you'll be prompted to save vulnerable URLs into a text file.
+![image 0](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/summery.png)
 
 ## Example Usage
 
