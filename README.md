@@ -18,11 +18,7 @@ A Python-based Blind SQL Injection testing tool designed to detect and exploit S
 Before you begin, ensure you have the following installed on your system:
 
 - Python 3.x
-- Python packages (Install via `pip`):
-
-   ```bash
-   pip install requests colorama prompt_toolkit rich
-   ```
+- Python packages (Install via `pip`)
 
 ## How to Use
 
