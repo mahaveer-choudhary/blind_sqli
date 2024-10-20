@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 You can run the script directly using Python. It will prompt you to provide an input file containing URLs, payloads, and other parameters.
 
 ```bash
-python test-bsqli.py
+python3 blind_sqli.py
 ```
 
 ### Input Options:
