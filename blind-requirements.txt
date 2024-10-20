@@ -1,0 +1,6 @@
+argparse
+requests
+prompt_toolkit
+colorama
+rich
+urllib3
