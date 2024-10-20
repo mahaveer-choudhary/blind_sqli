@@ -21,3 +21,15 @@ Before you begin, ensure you have the following installed on your system:
 
    ```bash
    pip install requests colorama prompt_toolkit rich
+
+# How to use 
+- **1. Clone the Repository :
+  ```bash
+  git clone https://github.com/mahaveer-choudhary/blind_sqli.git
+  cd blind_sqli
+
+- **2. Run the Script :
+  You can run the script directly using Python. It will prompt you to provide an input file containing URLs, payloads, and other parameters. You can provide a single URL also.
+  ```bash
+  python blind_sqli.py
+  
