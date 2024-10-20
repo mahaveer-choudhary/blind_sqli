@@ -61,11 +61,6 @@ At the end of the scan, you'll be prompted to save vulnerable URLs into a text f
 ![image 0](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/summery.png)
 
 ## Example Usage
-
-```bash
-python test-bsqli.py
-```
-
 - **Input URLs**: You will be prompted to input a file with the URLs to scan.
 - **Payload File**: You will be asked for the file containing SQLi payloads.
 - **WAF Detection**: Automatically detects WAF presence on each domain.
