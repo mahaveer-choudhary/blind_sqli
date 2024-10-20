@@ -32,7 +32,11 @@ Before you begin, ensure you have the following installed on your system:
 git clone https://github.com/yourusername/blind-sqli-testing-tool.git
 cd blind-sqli-testing-tool
 ```
+### Install requirements
 
+```bash
+pip3 install -r requirements.txt
+```
 ### Run the Script:
 
 You can run the script directly using Python. It will prompt you to provide an input file containing URLs, payloads, and other parameters.
