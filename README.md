@@ -47,18 +47,18 @@ python3 blind_sqli.py
 - **Payloads**: A file containing custom SQLi payloads is required.
 - **Cookie (Optional)**: If your scan requires authentication, you can provide a cookie string.
 - **Number of Threads**: You can specify the number of concurrent threads (default is 5).
-![Image 1](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/logo.png)
+<img src="images/logo.png" alt="loading error" width="1000px">
 The tool will scan each URL with the given payloads and detect any SQLi vulnerabilities based on the server's response time.
 
 ### WAF Detection:
 
 The tool also detects whether a WAF is protecting the target URL and reports the WAF name if detected.
-![image 3](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/blured-detection-image.png)
+<img src="images/blured-detection-image.png" alt="loading error" width="1000px">
 
 ### Saving Results:
 
 At the end of the scan, you'll be prompted to save vulnerable URLs into a text file.
-![image 0](https://github.com/mahaveer-choudhary/images/blob/main/blind_sqli_images/summery.png)
+<img src="images/summery.png" alt="loading error" width="1000px">
 
 ## Example Usage
 - **Input URLs**: You will be prompted to input a file with the URLs to scan.
